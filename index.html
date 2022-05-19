@@ -24,35 +24,38 @@
             <p>You <em>know</em> &nbsp;you want to.</p>
         </div>
         <div class="formbox">
-            <form>
+            <h2>Let's do this!</h2>
+            <form action="#" id="signup-form">
                  <div>
                     <p><label for="first_name">FIRST NAME</label></p>
-                    <input type="text" id="first_name" name="first_name">
+                    <input type="text" id="first_name" name="first_name" required>
                 </div>
                 <div>
                     <p><label for="last_name">LAST NAME</label></p>
-                    <input type="text" id="last_name" name="last_name">
+                    <input type="text" id="last_name" name="last_name" required>
                 </div>
                 <div>
                     <p><label for="email">EMAIL</label></p>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                 </div>
                 <div>
                     <p><label for="phone">PHONE NUMBER</label></p>
-                    <input type="tel" id="phone" name="phone">
+                    <input type="tel" id="phone" name="phone" required>
                  </div>
                  <div>
                     <p><label for="password">PASSWORD</label></p>
-                    <input type="password" id="password" name="password">
+                    <input type="password" id="password" name="password" required>
                  </div>
                  <div>
-                    <p><label for="phone">CONFIRM PASSWORD</label></p>
-                    <input type="password" id="password" name="password">
+                    <p><label for="confirm_password">CONFIRM PASSWORD</label></p>
+                    <input type="password" id="confirm_password" name="confirm_password" required>
                  </div>
 
             </form>
         </div>
         <div class="accountbox">
+            <button type="submit" form="signup-form">Create Account</button>
+            <p>Already have an account? <a class="login" href="#">Log in</a></p>
 
         </div>
     </div>
