@@ -132,6 +132,7 @@ form > div {
     padding-bottom: 10vh;
     flex: 1;
     overflow: scroll;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
 }
