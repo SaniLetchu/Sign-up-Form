@@ -126,6 +126,10 @@ form > div {
     min-width: 100%;
 }
 
+button:active {
+    background-color: rgb(60, 165, 214);
+}
+
 .contentcontainer {
     padding-right: 20px;
     padding-top: 10vh;
